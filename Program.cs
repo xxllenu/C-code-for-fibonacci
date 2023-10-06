@@ -22,7 +22,6 @@ namespace buenaventura_eyo__fibonacci
                 int temp = a;
                 a = b;
                 b = temp + b;
-                Console.WriteLine("------------------------------------------");
             }
             Console.ReadKey();
         }
